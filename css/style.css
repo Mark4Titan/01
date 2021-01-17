@@ -3,6 +3,7 @@
   --title-font: "Raleway", sans-serif;
   --color-font-accent: #2196f3;
   --color-font-normal: #212121;
+  --color-font-light: #ffffff; /*змінено із #FFFFFF; на  #757575; що б було наглядніше*/
 }
 body {
   font-family: var(--text-font);
@@ -64,6 +65,10 @@ body {
 .contact-tel:focus {
   color: var(--color-font-accent);
 }
+
+.accent {
+  color: var(--color-font-accent);
+}
 /*<!--шапка  OUT -->*/
 
 /* <!--баннер  IN-->*/
@@ -74,7 +79,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  /*color: #ffffff;*/ /* пізніше роз коментуєтся*/
+  color: var(--color-font-light);
 }
 
 .hero-button {
@@ -85,8 +90,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-
-  /*color: #FFFFFF;*/ /* пізніше роз коментуєтся*/
+  color: var(--color-font-light);
 }
 
 .hero-button:hover,
@@ -163,8 +167,7 @@ body {
   font-size: 26px;
   line-height: 1.192px;
   letter-spacing: 0.03em;
-  color: #757575;
-  /*color: #ffffff;*/ /*пізніще зміню*/
+  color: var(--color-font-light);
 }
 
 .address-contact-geolocation-link {
@@ -173,8 +176,7 @@ body {
   font-size: 14px;
   line-height: 1.714px;
   letter-spacing: 0.03em;
-  /*color: #ffffff;*/
-  color: rgb(117, 117, 117);
+  color: var(--color-font-light);
 }
 
 .address-contact-link {
